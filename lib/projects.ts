@@ -31,7 +31,7 @@ export const projects: Project[] = [
     subEn: 'Renovation of the common areas of a building',
     cat: 'pro',
 
-    img: '/Paris75005/20.png',
+    img: 'https://images.unsplash.com/photo-1460317442991-0ec209397118?w=600&q=75',
     // ↑ Replace with: '/images/imm14/apres-1.jpg'
 
     specs: [
@@ -60,6 +60,8 @@ export const projects: Project[] = [
       '/Album27ruedidot/61.png', // après 1
       '/Album27ruedidot/62.png', // après 1
       '/Album27ruedidot/56.png', // après 1
+      'https://images.unsplash.com/photo-1460317442991-0ec209397118?w=600&q=75',
+      'https://images.unsplash.com/photo-1494526585095-c41746248156?w=600&q=75',
       '/Album27ruedidot/15.png', // avant
       '/Album27ruedidot/35.png', // avant
       '/Album27ruedidot/45.png', //
@@ -74,6 +76,10 @@ export const projects: Project[] = [
       'after',   // après 4
       'after',   // après 5
       'after',   // après 6
+      'after',   // après 4
+      'after',   // après 5
+      'before',  // avant 1
+      'before',  // avant 2
       'before',  // avant 1
       'before',  // avant 2
       'before',  // avant 1
@@ -85,12 +91,12 @@ export const projects: Project[] = [
 
   {
     id: 'com11',
-    title: 'Commerce Paris 11ème',
+    title: 'Commerce Paris 09ème',
     titleEn: 'Commerce Paris 11th',
     sub: "Rénovation complète d'un espace commercial",
     subEn: 'Renovation of a shop',
     cat: 'pro',
-    img: '/Paris75005/14.png',
+    img: 'https://images.unsplash.com/photo-1494526585095-c41746248156?w=600&q=75',
     specs: ["Surface : 120m²", "Rénovation complète clé en main"],
     specsEn: ["Area: 120m²", "Full turnkey renovation"],
     services: ["Conception & aménagement commercial", "Mise aux normes ERP"],
@@ -105,7 +111,7 @@ export const projects: Project[] = [
       '/Paris75005/18.png',  // après 3
       '/Paris75005/19.png',  // après 4
       '/Paris75005/20.png',  // après 5
-      '/Paris75005/21.png',  // après 6
+      'https://images.unsplash.com/photo-1494526585095-c41746248156?w=600&q=75',
       '/Paris75005/2.png',  // avant 1
       '/Paris75005/1.png',  // avant 2
       '/Paris75005/3.png',  // avant 2
@@ -136,7 +142,7 @@ export const projects: Project[] = [
     sub: "Rénovation d'un plateau de bureaux",
     subEn: 'Office floor renovation',
     cat: 'pro',
-    img: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&q=80&auto=format&fit=crop',
+    img: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=75',
     specs: ["Surface : 250m²", "Open space + salles de réunion"],
     specsEn: ["Area: 250m²", "Open space + meeting rooms"],
     services: ["Aménagement espace de travail", "Câblage réseau & téléphonie"],
@@ -149,7 +155,7 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',    // avant 1
       'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=75', // avant 2
     ],
-    galleryLabels: ['after','after','before','before'],
+    galleryLabels: ['after','after','after','after','after','before'],
   },
 
   // ─────────────────────────────────────────────────────────
@@ -186,7 +192,7 @@ export const projects: Project[] = [
     sub: "Rénovation d'une maison 100m²",
     subEn: 'Renovation of a 100m² house',
     cat: 'part',
-    img: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75',
+    img: '/album18/112img.png',
     specs: ["Surface : 100m²", "Rénovation partielle + cuisine neuve"],
     specsEn: ["Area: 100m²", "Partial renovation + new kitchen"],
     services: ["Gestion de projet complète"],
@@ -232,7 +238,7 @@ export const projects: Project[] = [
     sub: 'Rénovation de deux appartements',
     subEn: 'Renovation of two apartments, one 6-room and one 5-room',
     cat: 'part',
-    img: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80&auto=format&fit=crop',
+    img: '/album18/115img.jpg',
     specs: ["6 pièces + 5 pièces", "Rénovation haut de gamme"],
     specsEn: ["6-room + 5-room", "High-end renovation"],
     services: ["Conception & coordination", "Matériaux premium"],
@@ -240,7 +246,7 @@ export const projects: Project[] = [
     works: ["Plomberie","Électricité","Parquet","Peinture","Cuisine","Salles de bain"],
     worksEn: ["Plumbing","Electrical","Parquet","Paint","Kitchen","Bathrooms"],
     gallery: [
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=75',
+
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75',
       'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=75',
       'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',
@@ -255,7 +261,7 @@ export const projects: Project[] = [
     sub: "Rénovation d'un appartement 220m²",
     subEn: 'Renovation of a 220m² apartment',
     cat: 'part',
-    img: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1200&q=80&auto=format&fit=crop',
+    img: '/album18/113img.png',
     specs: ["Surface : 220m²", "Rénovation complète prestige"],
     specsEn: ["Area: 220m²", "Full prestige renovation"],
     services: ["Architecture intérieure", "Suivi de chantier"],
