@@ -325,10 +325,11 @@ export const projects: Project[] = [
     works: ["Plomberie","Électricité","Parquet","Carrelage","Peinture"],
     worksEn: ["Plumbing","Electrical","Parquet","Tiling","Paint"],
     gallery: [
-      'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=600&q=75',
+
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75',
       'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',
-      'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=75',
+      '/album18/img25.webp',
+       '/album18/img26.jpg',
     ],
     galleryLabels: ['after','after','before','before'],
   },
@@ -340,7 +341,7 @@ export const projects: Project[] = [
     sub: "Rénovation d'un appartement 170m²",
     subEn: 'Renovation of a 170m² apartment',
     cat: 'part',
-    img: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',
+    img: '/album18/img24.jpg',
     specs: ["Surface : 170m²", "Rénovation haut de gamme prestige"],
     specsEn: ["Area: 170m²", "High-end prestige renovation"],
     services: ["Architecture intérieure complète"],
@@ -348,12 +349,13 @@ export const projects: Project[] = [
     works: ["Plomberie","Électricité","Parquet","Menuiserie","Cuisine sur mesure","Salles de bain"],
     worksEn: ["Plumbing","Electrical","Parquet","Joinery","Bespoke kitchen","Bathrooms"],
     gallery: [
-      'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75',
+       '/album18/img23.jpg',
+       '/album18/img24.jpg',
+      '/album18/img21.jpg',
+      '/album18/img22.jpg',
 
-      'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',
     ],
-    galleryLabels: ['after','after', 'after', 'before','before'],
+    galleryLabels: ['after','after', 'before','before'],
   },
 
 ]
