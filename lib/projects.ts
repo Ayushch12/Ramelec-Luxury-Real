@@ -61,7 +61,7 @@ export const projects: Project[] = [
       '/Album27ruedidot/62.png', // après 1
       '/Album27ruedidot/56.png', // après 1
       'https://images.unsplash.com/photo-1460317442991-0ec209397118?w=600&q=75',
-      'https://images.unsplash.com/photo-1494526585095-c41746248156?w=600&q=75',
+
       '/Album27ruedidot/15.png', // avant
       '/Album27ruedidot/35.png', // avant
       '/Album27ruedidot/45.png', //
@@ -75,7 +75,6 @@ export const projects: Project[] = [
       'after',   // après 3
       'after',   // après 4
       'after',   // après 5
-      'after',   // après 6
       'after',   // après 4
       'after',   // après 5
       'before',  // avant 1
@@ -150,12 +149,17 @@ export const projects: Project[] = [
     works: ["Cloisons amovibles","Faux-plafonds","Électricité","Éclairage LED","Revêtements de sol","Peinture"],
     worksEn: ["Movable partitions","False ceilings","Electrical","LED lighting","Floor coverings","Paint"],
     gallery: [
-      'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&q=75',  // après 1
+      '/album18/117img.jpg', // avant 2
+      '/album18/img1233.jpg',
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75', // après 2
-      'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',    // avant 1
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=75', // avant 2
+      'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',
+      // avant 1
+      'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&q=75',
+      '/album18/img78.jpg',
+      '/album18/img1233.jpg',
+
     ],
-    galleryLabels: ['after','after','after','after','after','before'],
+    galleryLabels: ['after','after','after','after','before','before','before'],
   },
 
   // ─────────────────────────────────────────────────────────
@@ -178,9 +182,10 @@ export const projects: Project[] = [
     worksEn: ["Plumbing","Electrical","Parquet","Paint","Bespoke kitchen","Bathroom"],
     gallery: [
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75',
-
       'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=75',
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=75',
+      '/album18/img113.jpg',
+      '/album18/img112.jpg',
+
     ],
     galleryLabels: ['after','after','before','before'],
   },
@@ -204,8 +209,10 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75',
       'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',
       'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=600&q=75',
+      '/album18/img114.jpg',
+
     ],
-    galleryLabels: ['after','after','before','before'],
+    galleryLabels: ['after','after', 'after','before','before'],
   },
 
   {
@@ -225,8 +232,9 @@ export const projects: Project[] = [
     gallery: [
       'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=75',
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75',
+      '/album18/img116.jfif',
 
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=75',
+
     ],
     galleryLabels: ['after','after','before','before'],
   },
@@ -271,10 +279,12 @@ export const projects: Project[] = [
     gallery: [
       'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75',
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=75',
+
       'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=75',
+      '/album18/119img.jpg',
+      '/album18/1120img.jpg',
     ],
-    galleryLabels: ['after','after','before','before'],
+    galleryLabels: ['after','after','after','before','before'],
   },
 
   {
@@ -295,7 +305,7 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=600&q=75',
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75',
 
-      'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=75',
+      // 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=75',
     ],
     galleryLabels: ['after','after','before','before'],
   },
@@ -340,10 +350,10 @@ export const projects: Project[] = [
     gallery: [
       'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75',
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=75',
+
       'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75',
     ],
-    galleryLabels: ['after','after','before','before'],
+    galleryLabels: ['after','after', 'after', 'before','before'],
   },
 
 ]

@@ -44,7 +44,7 @@ export default function HomePage() {
           </h2>
           <div className="str-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2, background: 'rgba(255,255,255,0.08)', borderRadius: 12, overflow: 'hidden' }}>
             {[
-              { n: '01', t: 'Qualité & Excellence',       d: "Une seule équipe, de la conception à la livraison. Zéro sous-traitance non maîtrisée, un seul interlocuteur, une exigence constante." },
+              { n: '01', t: 'Qualité & Excellence',       d:"Une équipe expérimentée, de la conception à la livraison. Un seul interlocuteur, une exigence d'excellence constante sur chaque détail de votre projet." },
               { n: '02', t: 'Respect des délais',         d: "Planning détaillé, suivi quotidien, transparence totale. Votre chantier avance comme prévu, sans mauvaises surprises." },
               { n: '03', t: 'Valorisation du patrimoine', d: "DPE optimisé, matériaux nobles, agencements intelligents — pour votre confort et votre investissement." },
               { n: '04', t: 'Gestion transparente',       d: "Devis détaillé, suivi en temps réel, compte-rendu hebdomadaire. Vous savez exactement où en est votre chantier." },
