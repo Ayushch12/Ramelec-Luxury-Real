@@ -108,7 +108,7 @@ export const EXPERTISE_DATA: Record<ExpertiseType, ExpertiseData> = {
     tag: 'Rénovation cuisine',
     title: "Votre cuisine,\nréinventée",
     sub: "Cuisine ouverte, ilot central, rangements sur mesure — nous créons l'espace convivial que vous méritez.",
-    img: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=80&auto=format&fit=crop',
+    img: '/album18/78image.jpg',
     p1: "La cuisine est le cœur de votre logement. RAMELEC prend en charge l'intégralité de votre projet : démolition, plomberie, électricité, pose de carrelage, installation du mobilier et des électroménagers.",
     p2: "Que vous souhaitiez une cuisine moderne avec ilot central, une cuisine aménagée avec rangements optimisés ou une rénovation complète, nous réalisons vos envies avec précision et goût.",
     steps: [
