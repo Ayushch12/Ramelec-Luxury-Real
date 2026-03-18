@@ -156,7 +156,7 @@ export const projects: Project[] = [
       // avant 1
       'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&q=75',
       '/album18/img78.jpg',
-      '/album18/img1233.jpg',
+
 
     ],
     galleryLabels: ['after','after','after','after','before','before','before'],
